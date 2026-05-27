@@ -1,6 +1,6 @@
 "use client"
 
-import { CheckCircle } from "lucide-react"
+import { CircleCheck as CheckCircle } from "lucide-react"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import Link from "next/link"

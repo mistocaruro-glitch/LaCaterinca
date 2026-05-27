@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react"
 import { supabase } from "@/lib/supabase"
 import { characters } from "@/lib/mock-data"
-import { CheckCircle, XCircle, Clock, Loader2 } from "lucide-react"
+import { CircleCheck as CheckCircle, Circle as XCircle, Clock, Loader as Loader2 } from "lucide-react"
 import Link from "next/link"
 
 interface Prank {

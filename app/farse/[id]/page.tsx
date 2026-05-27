@@ -8,7 +8,7 @@ import { Footer } from "@/components/footer"
 import { characters } from "@/lib/mock-data"
 import { useParams } from "next/navigation"
 import Link from "next/link"
-import { Clock, CheckCircle, XCircle, Loader2 } from "lucide-react"
+import { Clock, CircleCheck as CheckCircle, Circle as XCircle, Loader as Loader2 } from "lucide-react"
 
 interface Prank {
   id: string
